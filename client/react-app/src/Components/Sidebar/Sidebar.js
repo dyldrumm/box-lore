@@ -15,6 +15,8 @@ class SideBar extends Component {
                         return(
                             <li key={index}>
                                 <a href = {item.url} className = {item.cName}>
+                                    <i classname={item.icon}></i>
+                                    {item.title}
                                 </a>
                             </li>
                         )

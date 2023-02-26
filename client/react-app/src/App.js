@@ -9,7 +9,9 @@ function App() {
       <div className="content">
         <h1>Main App Component</h1>
       </div>
-      <SideBar />
+      <div className="Sidebar">
+        <SideBar />
+      </div>
     </div>
   );
 }

@@ -8,13 +8,13 @@ function App() {
   return (
     <div className="App">
       <div className="content">
-        <h1>Main App Component</h1>
-      </div>
-      <div className="Sidebar">
-        <SideBar />
+        <p></p>
       </div>
       <div className="StandingsTable">
         <StandingsTable />
+      </div>
+      <div className="Sidebar">
+        <SideBar />
       </div>
     </div>
   );

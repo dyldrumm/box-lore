@@ -6,7 +6,7 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 import {MenuData} from "./MenuData.js";
 import "./SidebarStyles.css";
 
-class SideBar extends Component {
+class Sidebar extends Component {
     render() {
         return (
             <nav className="Sidebar">
@@ -27,4 +27,4 @@ class SideBar extends Component {
       }
 }
 
-export default SideBar;
+export default Sidebar;

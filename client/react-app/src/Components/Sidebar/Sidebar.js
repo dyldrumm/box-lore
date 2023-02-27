@@ -1,9 +1,7 @@
 import React, { Component } from 'react';
 import Container from 'react-bootstrap/Container';
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
 import {MenuData} from "./MenuData.js";
+import { FaBeer } from 'react-icons/fa';
 import "./SidebarStyles.css";
 
 class Sidebar extends Component {

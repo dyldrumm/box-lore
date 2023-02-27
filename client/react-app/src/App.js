@@ -8,9 +8,7 @@ import Navbar from "./Components/Navbar/NavBar.js";
 function App() {
   return (
     <div className="App">
-    
-      <div className="content">
-        <h1>Main App Component</h1>
+      <div className="Navbar">
         <Navbar/>
       </div>
       <div className="Sidebar">

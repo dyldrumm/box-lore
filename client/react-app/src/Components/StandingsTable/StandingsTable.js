@@ -25,8 +25,8 @@ class StandingsTable extends Component {
         return (
             <div className="StandingsTable">
                 <table>
-                    <tr>
-                        <th>Name</th>
+                    <tr className="Headers">
+                        <th>Team</th>
                         <th>W</th>
                         <th>L</th>
                         <th>Pct</th>
@@ -36,11 +36,10 @@ class StandingsTable extends Component {
                         <th>Away</th>
                         <th>L10</th>
                         <th>Strk</th>
-
                     </tr>
                     {data.map((val, key) => {
                         return (
-                            <tr key={key}>
+                            <tr className="Values" key={key}>
                                 <td>{val.name}</td>
                                 <td>{val.wins}</td>
                                 <td>{val.losses}</td>

@@ -1,22 +1,16 @@
-import './App.css';
+import './AboutPage.css';
 import React, {Component} from 'react';
 import ReactDOM from 'react-dom/client';
 
-import SideBar from './Components/Sidebar/Sidebar.js';
-import StandingsTable from './Components/StandingsTable/StandingsTable.js'
-import Navbar from "./Components/Navbar/NavBar.js";
+import SideBar from '../Components/Sidebar/Sidebar.js';
+import About from '../Components/About/About.js'
+import Navbar from "../Components/Navbar/NavBar.js";
 
 function AboutPage() {
     return (
     <div className="AboutPage">
-      <div className="Navbar">
-        <Navbar/>
-      </div>
-      <div className="Sidebar">
-        <SideBar />
-      </div>
-      <div className="StandingsTable">
-        <StandingsTable />
+      <div className="About">
+        <About />
       </div>
     </div>
     );

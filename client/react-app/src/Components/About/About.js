@@ -7,7 +7,6 @@ function About(){
       <div className="main-1">
         <h1>About Us</h1>
       </div>
-      <hr />
       <div className="main-2">
         {/*  */}
         <div className="block">
@@ -24,26 +23,6 @@ function About(){
             His well-rounded capability allows him to make flexible in places 
             when it comes to working with teams, and willing to do whatever 
             needs to be done.
-
-            </p>
-          </div>
-        </div>
-        {/*  */}
-        <div className="block">
-          <div className="block-avatar">
-            <div className='pic'><img src={logo} alt="image"/></div>
-            <div className='name'>Dylan Drumm</div>
-          </div>
-          <div className="block-bio">
-            <p className='bio-p'>
-            Dylan is a senior Computer Science student with an interest in Data Science.  
-            Has worked on mobile applications before using the Flutter library, 
-            has some experience in web development, and has worked with machine 
-            learning and data analysis at a beginner level.  Lacks experience 
-            with frontend web application development and backend data management, 
-            and is hoping to expand his capabilities in that field through working 
-            with the React library and cloud-hosted data storage/analysis applications.
-
             </p>
           </div>
         </div>
@@ -59,7 +38,6 @@ function About(){
             development, who has a strong focus on Javascript, HTML, 
             and CSS has been able to develop functional websites and games 
             throughout the past year.
-
             </p>
           </div>
         </div>
@@ -78,7 +56,6 @@ function About(){
             using primarily Python, as well as some Ruby, TypeScript, and other 
             proprietary Amazon builder tools. Frontend experience is limited, however, 
             and he is looking forward to exploring that with this project.
-
             </p>
           </div>
         </div>
@@ -99,7 +76,24 @@ function About(){
             creative technologies, such as UI/UX design. Her adaptability, flexibility, 
             and exceptional communication skills make her a reliable team member who 
             can efficiently collaborate with others.
-
+            </p>
+          </div>
+        </div>
+        {/*  */}
+        <div className="block">
+          <div className="block-avatar">
+            <div className='pic'><img src={logo} alt="image"/></div>
+            <div className='name'>Dylan Drumm</div>
+          </div>
+          <div className="block-bio">
+            <p className='bio-p'>
+            Dylan is a senior Computer Science student with an interest in Data Science.  
+            Has worked on mobile applications before using the Flutter library, 
+            has some experience in web development, and has worked with machine 
+            learning and data analysis at a beginner level.  Lacks experience 
+            with frontend web application development and backend data management, 
+            and is hoping to expand his capabilities in that field through working 
+            with the React library and cloud-hosted data storage/analysis applications.
             </p>
           </div>
         </div>

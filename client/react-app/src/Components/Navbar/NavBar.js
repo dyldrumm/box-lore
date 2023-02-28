@@ -6,7 +6,7 @@ class Navbar extends Component {
         return(
             <nav className="NavbarItems">
                 <h1>
-                    Box-Lore <i className=" fab fa-city"></i>
+                    Box-Lore <i className=" fab fa-table"></i>
                     </h1>
                     <ul className="nav-menu">
                         {MenuData.map((item, index) => {

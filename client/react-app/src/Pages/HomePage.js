@@ -9,12 +9,6 @@ import Navbar from "../Components/Navbar/NavBar.js";
 function HomePage() {
     return (
     <div className="HomePage">
-      <div className="Navbar">
-        <Navbar/>
-      </div>
-      <div className="Sidebar">
-        <SideBar />
-      </div>
       <div className="StandingsTable">
         <StandingsTable />
       </div>

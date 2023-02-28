@@ -9,12 +9,6 @@ import Navbar from "../Components/Navbar/NavBar.js";
 function AboutPage() {
     return (
     <div className="AboutPage">
-      <div className="Navbar">
-        <Navbar/>
-      </div>
-      <div className="Sidebar">
-        <SideBar />
-      </div>
       <div className="About">
         <About />
       </div>

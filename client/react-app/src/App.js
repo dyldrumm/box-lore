@@ -4,10 +4,7 @@ import ReactDOM from 'react-dom/client';
 
 import AboutPage from './Pages/AboutPage.js';
 import HomePage from './Pages/HomePage.js';
-
-import SideBar from './Components/Sidebar/Sidebar.js';
-import StandingsTable from './Components/StandingsTable/StandingsTable.js'
-import Navbar from "./Components/Navbar/NavBar.js";
+import Layout from './Pages/Layout.js';
 
 import {
   BrowserRouter,
@@ -31,8 +28,11 @@ function App() {
 
     <BrowserRouter>
       <Routes>
+      <Route path="/" element={<Layout />}>
           <Route index element={<HomePage />} />
-          <Route path="./Pages/AboutPage.js" element={<AboutPage />} />
+          <Route path="aboutpage" element={<AboutPage />} />
+          <Route path="homepage" element={<HomePage />} />
+      </Route>
       </Routes>
     </BrowserRouter>
 

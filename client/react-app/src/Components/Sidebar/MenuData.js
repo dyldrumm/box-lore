@@ -1,7 +1,7 @@
 export const MenuData = [
     {
         title: "Home ",
-        url: "#",
+        url: "homepage",
         cName: "nav-links",
         icon: "fa-solid fa-house-user ",
     },

@@ -1,6 +1,8 @@
 import {Component} from "react";
 import { MenuData } from "./MenuData";
 import "./NavBar.css";
+
+
 class Navbar extends Component {
     render() {
         return(

@@ -6,16 +6,9 @@ import SideBar from './Components/Sidebar/Sidebar.js';
 import StandingsTable from './Components/StandingsTable/StandingsTable.js'
 import Navbar from "./Components/Navbar/NavBar.js";
 
-import {
-  BrowserRouter as Router,
-  Routes,
-  Route,
-  Link
-} from 'react-router-dom';
-
-function App() {
-  return (
-    <div className="App">
+function AboutPage() {
+    return (
+    <div className="AboutPage">
       <div className="Navbar">
         <Navbar/>
       </div>
@@ -26,7 +19,7 @@ function App() {
         <StandingsTable />
       </div>
     </div>
-  );
+    );
 }
 
-export default App;
+export default AboutPage;

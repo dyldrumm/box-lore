@@ -1,0 +1,47 @@
+body{
+    background-color: darkgray;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid black; */
+    background-color: darkgray;
+    color: white;
+    margin-left: 7%;
+    margin-right: 7%;
+}
+.main-1{
+    text-align: center;
+    /* border: 1px solid black; */
+}
+.main-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 17px;
+}
+.block{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 10px;
+    /* border: 1px solid black; */
+}
+.block-avatar{
+    width: 25%;
+    margin-top: 18px;
+    margin-left: 5px;
+}
+.block-bio{
+    width: 70%;
+    margin-right: 5px;
+}
+.bio-p{
+    text-indent: 50px;
+}
+.pic{
+    align-content: center;
+}
+.name{
+    text-align: center;
+}

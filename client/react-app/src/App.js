@@ -7,35 +7,27 @@ import HomePage from './Pages/HomePage.js';
 import Layout from './Pages/Layout.js';
 
 import {
-  BrowserRouter,
-  Routes,
-  Route,
-  Link
+  // Navigation
+  BrowserRouter, Routes, Route, Link,
+  // Page Transitions
+  Switch, useLocation, useHistory
 } from 'react-router-dom';
+import { AnimatePresence } from "framer-motion";
 
 function App() {
   return (
     <div className="App">
-      {/* <div className="Navbar">
-        <Navbar/>
-      </div>
-      <div className="Sidebar">
-        <SideBar />
-      </div>
-      <div className="StandingsTable">
-        <StandingsTable />
-      </div> */}
-
-    <BrowserRouter>
-      <Routes>
-      <Route path="/" element={<Layout />}>
-          <Route index element={<HomePage />} />
-          <Route path="aboutpage" element={<AboutPage />} />
-          <Route path="homepage" element={<HomePage />} />
-      </Route>
-      </Routes>
-    </BrowserRouter>
-
+      <AnimatePresence>
+        <BrowserRouter>
+          <Routes>
+          <Route path="/" element={<Layout />}>
+              <Route index element={<HomePage />} />
+              <Route path="aboutpage" element={<AboutPage />} />
+              <Route path="homepage" element={<HomePage />} />
+            </Route>
+          </Routes>
+        </BrowserRouter>
+      </AnimatePresence>
     </div>
   );
 }

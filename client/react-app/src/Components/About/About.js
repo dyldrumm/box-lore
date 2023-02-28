@@ -1,5 +1,5 @@
 import './About.css';
-import logo from './avatar.png';
+import logo from './resources/avatar.png';
 
 function About(){
   return (

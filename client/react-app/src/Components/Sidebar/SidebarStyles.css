@@ -19,7 +19,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-size: 0.8rem;
+    font-size: 0.9rem;
+    font-weight: bold;
     background-color:grey;
     box-shadow: 0 5px 20px rgba(0,0,0,0.25);
     width: 15%;
@@ -29,12 +30,13 @@
     position:fixed;
     top: 0%;
     left: 0%;
-    transition: all 0.2s ease-in-out;
+    transition: all 0.23s ease-in-out;
+    opacity: 0.70;
 }
 
 .SidebarItems{
     display: inline-grid;
-    grid-gap:10px;
+    grid-gap:25px;
     list-style: none;
     align-items:center;
     text-align: center;

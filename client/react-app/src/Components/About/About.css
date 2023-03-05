@@ -1,0 +1,55 @@
+body{
+
+}
+.main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid black; */
+    background-color: gray;
+    color: white;
+    margin-left: 0%;
+    margin-right: 5%;
+}
+.main-1{
+    text-align: center;
+    /* border: 1px solid black; */
+}
+.main-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 17px;
+}
+.block{
+    display: flex;
+    flex-direction: row;
+    background-color: darkgray;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    justify-content: space-between;
+    margin-top: 10px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.25);
+    /* border: 1px solid black; */
+}
+.block-avatar{
+    width: 25%;
+    margin-top: 18px;
+    margin-left: 5px;
+}
+.block-bio{
+    width: 50%;
+    font-size: 15px;
+    margin-right: 22%;
+    margin-top: 2%;
+}
+.bio-p{
+    text-indent: 30px;
+    margin-right: 10%;
+}
+.pic{
+    align-content: center;
+}
+.name{
+    text-align: center;
+}

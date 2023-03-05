@@ -1,35 +1,34 @@
 import './App.css';
-<<<<<<< Updated upstream
 =======
 import React, {Component} from 'react';
 import ReactDOM from 'react-dom/client';
-import SideBar from './Components/Sidebar/Sidebar.js';
-import UpcomingGames from './Components/UpcomingGames/UpcomingGames.js'
-import StandingsTable from './Components/StandingsTable/StandingsTable.js'
-import Navbar from "./Components/Navbar/NavBar.js";
->>>>>>> Stashed changes
+
+import AboutPage from './Pages/AboutPage.js';
+import HomePage from './Pages/HomePage.js';
+import Layout from './Pages/Layout.js';
+
+import {
+  // Navigation
+  BrowserRouter, Routes, Route, Link,
+  // Page Transitions
+  Switch, useLocation, useHistory
+} from 'react-router-dom';
+import { AnimatePresence } from "framer-motion";
 
 function App() {
   return (
     <div className="App">
-      <div className="content">
-        <h1>Main App Component</h1>
-<<<<<<< Updated upstream
-=======
-        <Navbar/>
-      </div>
-      <div className="Sidebar">
-        <SideBar />
-      </div>
-      
-      <div className="UpcomingGames">
-        <UpcomingGames />
-      </div>
-
-      <div className="StandingsTable">
-        <StandingsTable />
->>>>>>> Stashed changes
-      </div>
+      <AnimatePresence>
+        <BrowserRouter>
+          <Routes>
+          <Route path="/" element={<Layout />}>
+              <Route index element={<HomePage />} />
+              <Route path="aboutpage" element={<AboutPage />} />
+              <Route path="homepage" element={<HomePage />} />
+            </Route>
+          </Routes>
+        </BrowserRouter>
+      </AnimatePresence>
     </div>
   );
 }

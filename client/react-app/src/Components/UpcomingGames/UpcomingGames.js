@@ -8,6 +8,8 @@ const data = [
     { name: 'Clippers vs. Suns', date: '2/16/2023', score: '116-107'},
 ]
 
+
+
 class UpcomingGames extends Component {
 
     render() {
